@@ -13,7 +13,6 @@ var basics_Main = function() {
 	this.ticker.add(function(delta) {
 		_gthis._animate(delta);
 	});
-	PIXI.Application.prototype.start.call(this);
 	this._bunny = new PIXI.Sprite(PIXI.Texture.from("assets/basics/bunny.png"));
 	this._bunny.anchor.set(0.5);
 	this._bunny.position.set(400,300);
