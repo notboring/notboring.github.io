@@ -22,6 +22,7 @@ var basics_Main = function() {
 	this._graphic.endFill();
 	this.stage.addChild(this._graphic);
 	this.stage.addChild(this._bunny);
+	window.document.body.appendChild(this.view);
 };
 basics_Main.main = function() {
 	new basics_Main();
